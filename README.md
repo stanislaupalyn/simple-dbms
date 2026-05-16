@@ -9,7 +9,7 @@ Constructor University Bremen Database course homework assignment
 Use the following command:
 
 ```bash
-python3 __main__.py
+uv run python3 -m simple_dbms
 ```
 
 This will start the REPL using the default database path (`data/simple.db`).
@@ -17,7 +17,7 @@ This will start the REPL using the default database path (`data/simple.db`).
 To use a specific database file, pass the path as an argument:
 
 ```bash
-python3 __main__.py <path-to-database>
+uv run python3 -m simple_dbms <path-to-database>
 ```
 
 Inside the REPL, you can execute SQL commands. Type `HELP;` for help, and `EXIT;` to quit.
@@ -27,5 +27,5 @@ Inside the REPL, you can execute SQL commands. Type `HELP;` for help, and `EXIT;
 To run the project tests, use the following command:
 
 ```bash
-python3 -m unittest discover tests
+uv run python3 -m unittest discover tests
 ```

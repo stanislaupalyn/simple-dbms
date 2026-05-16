@@ -2,8 +2,8 @@ import os
 import tempfile
 import unittest
 
-from Database import ColumnDef, Database
-from Schema import DataType
+from simple_dbms.database import ColumnDef, Database
+from simple_dbms.schema import DataType
 
 
 class DatabaseTests(unittest.TestCase):

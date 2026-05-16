@@ -1,6 +1,6 @@
 import unittest
 
-from Schema import DataType, Schema
+from simple_dbms.schema import DataType, Schema
 
 
 class DataTypeEnumTests(unittest.TestCase):

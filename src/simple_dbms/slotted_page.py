@@ -29,7 +29,7 @@ never reused or reordered so (page_id, slot_id) is a stable RID.
 import struct
 from typing import Iterator, Optional, Tuple
 
-from DiskManager import PAGE_SIZE
+from simple_dbms.disk_manager import PAGE_SIZE
 
 HEADER_SIZE = 12
 SLOT_SIZE = 4

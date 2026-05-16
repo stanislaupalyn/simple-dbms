@@ -9,8 +9,8 @@ statement breaks the loop.
 import sys
 from typing import IO, List
 
-from Database import Database
-from Sql import (
+from simple_dbms.database import Database
+from simple_dbms.sql import (
     CountResult,
     ExitResult,
     ParseError,

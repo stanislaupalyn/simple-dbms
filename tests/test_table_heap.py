@@ -3,11 +3,11 @@ import tempfile
 import unittest
 from typing import List, Tuple
 
-from Catalog import Catalog, ColumnDef
-from DiskManager import DiskManager
-from Schema import DataType
-from SlottedPage import NO_NEXT_PAGE, SlottedPage
-from TableHeap import MAX_ROW_BYTES, RID, TableHeap
+from simple_dbms.catalog import Catalog, ColumnDef
+from simple_dbms.disk_manager import DiskManager
+from simple_dbms.schema import DataType
+from simple_dbms.slotted_page import NO_NEXT_PAGE, SlottedPage
+from simple_dbms.table_heap import MAX_ROW_BYTES, RID, TableHeap
 
 
 def _make_users_heap(path: str) -> Tuple[DiskManager, TableHeap]:

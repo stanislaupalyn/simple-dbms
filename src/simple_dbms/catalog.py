@@ -17,9 +17,9 @@ import struct
 from dataclasses import dataclass
 from typing import Iterator, List, Optional, Tuple
 
-from DiskManager import DiskManager
-from Schema import DataType, Schema
-from SlottedPage import SLOT_SIZE, SlottedPage
+from simple_dbms.disk_manager import DiskManager
+from simple_dbms.schema import DataType, Schema
+from simple_dbms.slotted_page import SLOT_SIZE, SlottedPage
 
 _U16_MAX = 0xFFFF
 _U32_MAX = 0xFFFFFFFF

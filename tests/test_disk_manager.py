@@ -2,7 +2,7 @@ import os
 import tempfile
 import unittest
 
-from DiskManager import PAGE_SIZE, DiskManager
+from simple_dbms.disk_manager import PAGE_SIZE, DiskManager
 
 
 class DiskManagerTests(unittest.TestCase):

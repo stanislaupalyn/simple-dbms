@@ -2,10 +2,10 @@ import os
 import tempfile
 import unittest
 
-from Catalog import Catalog, ColumnDef
-from DiskManager import PAGE_SIZE, DiskManager
-from Schema import DataType
-from SlottedPage import SlottedPage
+from simple_dbms.catalog import Catalog, ColumnDef
+from simple_dbms.disk_manager import PAGE_SIZE, DiskManager
+from simple_dbms.schema import DataType
+from simple_dbms.slotted_page import SlottedPage
 
 
 class CatalogTests(unittest.TestCase):

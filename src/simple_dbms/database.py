@@ -12,9 +12,9 @@ Operations:
 
 from typing import Callable, Dict, Iterator, List, Optional, Tuple
 
-from Catalog import Catalog, ColumnDef, TableInfo
-from DiskManager import DiskManager
-from TableHeap import RID, TableHeap
+from simple_dbms.catalog import Catalog, ColumnDef, TableInfo
+from simple_dbms.disk_manager import DiskManager
+from simple_dbms.table_heap import RID, TableHeap
 
 Where = Optional[Dict[str, object]]   # {col_name: expected_value, ...} ANDed
 

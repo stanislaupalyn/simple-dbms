@@ -11,9 +11,9 @@ is not reused by this layer.
 
 from typing import Iterator, NamedTuple, Optional, Tuple
 
-from Catalog import TableInfo
-from DiskManager import PAGE_SIZE, DiskManager
-from SlottedPage import HEADER_SIZE, NO_NEXT_PAGE, SLOT_SIZE, SlottedPage
+from simple_dbms.catalog import TableInfo
+from simple_dbms.disk_manager import PAGE_SIZE, DiskManager
+from simple_dbms.slotted_page import HEADER_SIZE, NO_NEXT_PAGE, SLOT_SIZE, SlottedPage
 
 MAX_ROW_BYTES = PAGE_SIZE - HEADER_SIZE - SLOT_SIZE
 

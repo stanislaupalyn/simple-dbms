@@ -2,9 +2,9 @@ import os
 import tempfile
 import unittest
 
-from Database import Database
-from Schema import DataType
-from Sql import (
+from simple_dbms.database import Database
+from simple_dbms.schema import DataType
+from simple_dbms.sql import (
     CountResult,
     CreateTableStmt,
     DeleteStmt,

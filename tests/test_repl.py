@@ -3,8 +3,8 @@ import os
 import tempfile
 import unittest
 
-from Database import Database
-from Repl import run_repl
+from simple_dbms.database import Database
+from simple_dbms.repl import run_repl
 
 
 def _run(input_text: str, db: Database) -> str:

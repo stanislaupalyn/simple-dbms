@@ -1,7 +1,7 @@
 import sys
 
-from Database import Database
-from Repl import run_repl
+from simple_dbms.database import Database
+from simple_dbms.repl import run_repl
 
 _DEFAULT_DB_PATH = "data/simple.db"
 

@@ -23,9 +23,9 @@ from dataclasses import dataclass, field
 from enum import Enum
 from typing import Dict, List, Optional, Tuple, Union
 
-from Catalog import ColumnDef
-from Database import Database
-from Schema import DataType
+from simple_dbms.catalog import ColumnDef
+from simple_dbms.database import Database
+from simple_dbms.schema import DataType
 
 
 class ParseError(Exception):
